@@ -8,8 +8,10 @@
 
 import Foundation
 
-public class Sample {
-    func log() -> String {
+public class SampleAAA {
+    public func log() -> String {
         return "sample"
     }
+    
+    
 }
