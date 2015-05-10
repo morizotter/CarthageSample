@@ -8,8 +8,8 @@ $ brew update
 $ brew install carthage
 $ cd /to/your-project-root/
 $ vi Carthage
-// Write one line below.
-// github "morizotter/CarthageSample"
+# Write one line below.
+github "morizotter/CarthageSample"
 $ carthage update
 ```
 
