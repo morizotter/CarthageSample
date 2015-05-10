@@ -8,28 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		FF1A1ADD1AFF7A7A00267156 /* CarthageSample.h in Headers */ = {isa = PBXBuildFile; fileRef = FF1A1ADC1AFF7A7A00267156 /* CarthageSample.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF1A1AE31AFF7A7A00267156 /* CarthageSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1A1AD71AFF7A7A00267156 /* CarthageSample.framework */; };
-		FF1A1AEA1AFF7A7A00267156 /* CarthageSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A1AE91AFF7A7A00267156 /* CarthageSampleTests.swift */; };
 		FF1A1AF41AFF7A9E00267156 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A1AF31AFF7A9E00267156 /* Sample.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		FF1A1AE41AFF7A7A00267156 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FF1A1ACE1AFF7A7A00267156 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FF1A1AD61AFF7A7A00267156;
-			remoteInfo = CarthageSample;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FF1A1AD71AFF7A7A00267156 /* CarthageSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CarthageSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1A1ADB1AFF7A7A00267156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF1A1ADC1AFF7A7A00267156 /* CarthageSample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarthageSample.h; sourceTree = "<group>"; };
-		FF1A1AE21AFF7A7A00267156 /* CarthageSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarthageSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF1A1AE81AFF7A7A00267156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF1A1AE91AFF7A7A00267156 /* CarthageSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarthageSampleTests.swift; sourceTree = "<group>"; };
 		FF1A1AF31AFF7A9E00267156 /* Sample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,14 +26,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF1A1ADF1AFF7A7A00267156 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FF1A1AE31AFF7A7A00267156 /* CarthageSample.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -56,7 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				FF1A1AD91AFF7A7A00267156 /* CarthageSample */,
-				FF1A1AE61AFF7A7A00267156 /* CarthageSampleTests */,
 				FF1A1AD81AFF7A7A00267156 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				FF1A1AD71AFF7A7A00267156 /* CarthageSample.framework */,
-				FF1A1AE21AFF7A7A00267156 /* CarthageSampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,23 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				FF1A1ADB1AFF7A7A00267156 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		FF1A1AE61AFF7A7A00267156 /* CarthageSampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				FF1A1AE91AFF7A7A00267156 /* CarthageSampleTests.swift */,
-				FF1A1AE71AFF7A7A00267156 /* Supporting Files */,
-			);
-			path = CarthageSampleTests;
-			sourceTree = "<group>";
-		};
-		FF1A1AE71AFF7A7A00267156 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				FF1A1AE81AFF7A7A00267156 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -137,24 +95,6 @@
 			productReference = FF1A1AD71AFF7A7A00267156 /* CarthageSample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FF1A1AE11AFF7A7A00267156 /* CarthageSampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FF1A1AF01AFF7A7A00267156 /* Build configuration list for PBXNativeTarget "CarthageSampleTests" */;
-			buildPhases = (
-				FF1A1ADE1AFF7A7A00267156 /* Sources */,
-				FF1A1ADF1AFF7A7A00267156 /* Frameworks */,
-				FF1A1AE01AFF7A7A00267156 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FF1A1AE51AFF7A7A00267156 /* PBXTargetDependency */,
-			);
-			name = CarthageSampleTests;
-			productName = CarthageSampleTests;
-			productReference = FF1A1AE21AFF7A7A00267156 /* CarthageSampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,9 +105,6 @@
 				ORGANIZATIONNAME = molabo;
 				TargetAttributes = {
 					FF1A1AD61AFF7A7A00267156 = {
-						CreatedOnToolsVersion = 6.3.1;
-					};
-					FF1A1AE11AFF7A7A00267156 = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
 				};
@@ -185,20 +122,12 @@
 			projectRoot = "";
 			targets = (
 				FF1A1AD61AFF7A7A00267156 /* CarthageSample */,
-				FF1A1AE11AFF7A7A00267156 /* CarthageSampleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FF1A1AD51AFF7A7A00267156 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF1A1AE01AFF7A7A00267156 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -216,23 +145,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF1A1ADE1AFF7A7A00267156 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FF1A1AEA1AFF7A7A00267156 /* CarthageSampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FF1A1AE51AFF7A7A00267156 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FF1A1AD61AFF7A7A00267156 /* CarthageSample */;
-			targetProxy = FF1A1AE41AFF7A7A00267156 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		FF1A1AEB1AFF7A7A00267156 /* Debug */ = {
@@ -359,36 +272,6 @@
 			};
 			name = Release;
 		};
-		FF1A1AF11AFF7A7A00267156 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CarthageSampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		FF1A1AF21AFF7A7A00267156 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CarthageSampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -406,15 +289,6 @@
 			buildConfigurations = (
 				FF1A1AEE1AFF7A7A00267156 /* Debug */,
 				FF1A1AEF1AFF7A7A00267156 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FF1A1AF01AFF7A7A00267156 /* Build configuration list for PBXNativeTarget "CarthageSampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FF1A1AF11AFF7A7A00267156 /* Debug */,
-				FF1A1AF21AFF7A7A00267156 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

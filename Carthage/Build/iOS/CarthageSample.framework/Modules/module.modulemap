@@ -1,0 +1,10 @@
+framework module CarthageSample {
+  umbrella header "CarthageSample.h"
+
+  export *
+  module * { export * }
+}
+
+module CarthageSample.Swift {
+    header "CarthageSample-Swift.h"
+}
