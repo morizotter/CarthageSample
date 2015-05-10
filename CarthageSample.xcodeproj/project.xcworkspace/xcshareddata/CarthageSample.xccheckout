@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>641BF2AB-15EF-4D3D-AB92-1E01DEBC3B50</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CarthageSample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4ADF98C1C1BA12D9ACF6D79CB3C785004E475A60</key>
+		<string>github.com:morizotter/CarthageSample.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CarthageSample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4ADF98C1C1BA12D9ACF6D79CB3C785004E475A60</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:morizotter/CarthageSample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4ADF98C1C1BA12D9ACF6D79CB3C785004E475A60</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4ADF98C1C1BA12D9ACF6D79CB3C785004E475A60</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CarthageSample</string>
+		</dict>
+	</array>
+</dict>
+</plist>
