@@ -15,11 +15,11 @@ $ carthage update
 
 After above, read the documentation: [Adding frameworks to an application](https://github.com/Carthage/Carthage/blob/master/README.md#adding-frameworks-to-an-application).
 
-## In your project
-
-Write `import CarthageSample` at the top of swift file.
+Open your project and write `import CarthageSample` at the top of swift file where you want to test this sample. And write:
 
 ```swift
 let sample = Sample()
 sample.log() // sample
 ```
+
+Done.
