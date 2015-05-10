@@ -55,7 +55,20 @@ github "morizotter/CarthageSample"
 $ carthage update
 ```
 
-After above, read the documentation: [Adding frameworks to an application](https://github.com/Carthage/Carthage/blob/master/README.md#adding-frameworks-to-an-application).
+1. On your application targets’ “General” settings tab, in the “Linked Frameworks and Libraries” section, drag and drop each framework you want to use from the [Carthage/Build][] folder on disk.
+1. On your application targets’ “Build Phases” settings tab, click the “+” icon and choose “New Run Script Phase”. Create a Run Script with the following contents:
+
+  ```sh
+  /usr/local/bin/carthage copy-frameworks
+  ```
+
+  and add the paths to the frameworks you want to use under “Input Files”, e.g.:
+
+  ```
+  $(SRCROOT)/Carthage/Build/iOS/CarthageSample.framework
+  ```
+
+  This script works around an [App Store submission bug](http://www.openradar.me/radar?id=6409498411401216) triggered by universal binaries.
 
 Open your project and write `import CarthageSample` at the top of swift file where you want to test this sample. And write:
 
