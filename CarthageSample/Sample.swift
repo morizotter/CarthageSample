@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Sample {
+public class Sample {
     func log() -> String {
         return "sample"
     }
