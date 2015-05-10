@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		FF1A1ADD1AFF7A7A00267156 /* CarthageSample.h in Headers */ = {isa = PBXBuildFile; fileRef = FF1A1ADC1AFF7A7A00267156 /* CarthageSample.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF1A1AF41AFF7A9E00267156 /* SampleAAA.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A1AF31AFF7A9E00267156 /* SampleAAA.swift */; };
+		FF1A1AF41AFF7A9E00267156 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A1AF31AFF7A9E00267156 /* Sample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FF1A1AD71AFF7A7A00267156 /* CarthageSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CarthageSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1A1ADB1AFF7A7A00267156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF1A1ADC1AFF7A7A00267156 /* CarthageSample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarthageSample.h; sourceTree = "<group>"; };
-		FF1A1AF31AFF7A9E00267156 /* SampleAAA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleAAA.swift; sourceTree = "<group>"; };
+		FF1A1AF31AFF7A9E00267156 /* Sample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 			children = (
 				FF1A1ADC1AFF7A7A00267156 /* CarthageSample.h */,
 				FF1A1ADA1AFF7A7A00267156 /* Supporting Files */,
-				FF1A1AF31AFF7A9E00267156 /* SampleAAA.swift */,
+				FF1A1AF31AFF7A9E00267156 /* Sample.swift */,
 			);
 			path = CarthageSample;
 			sourceTree = "<group>";
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF1A1AF41AFF7A9E00267156 /* SampleAAA.swift in Sources */,
+				FF1A1AF41AFF7A9E00267156 /* Sample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,12 +8,12 @@
 
 import Foundation
 
-public class SampleAAA {
-    public func log() -> String {
-        return "sample"
+public class Sample {
+    public func log() {
+        println("sample")
     }
     
     public init() {
-        println("init")
+        
     }
 }
