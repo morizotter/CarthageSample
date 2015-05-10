@@ -49,7 +49,7 @@ Use with `carthage` from another project!
 $ brew update
 $ brew install carthage
 $ cd /to/your-project-root/
-$ vi Carthage
+$ vi Cartfile
 # Write one line below.
 github "morizotter/CarthageSample"
 $ carthage update
