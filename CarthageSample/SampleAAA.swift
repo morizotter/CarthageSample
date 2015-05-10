@@ -13,5 +13,7 @@ public class SampleAAA {
         return "sample"
     }
     
-    
+    init() {
+        println("init")
+    }
 }
