@@ -21,5 +21,5 @@ Write `import CarthageSample` at the top of swift file.
 
 ```swift
 let sample = Sample()
-sample.log()
+sample.log() // "sample"
 ```
