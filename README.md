@@ -1,5 +1,5 @@
 # CarthageSample
-Sample for publishing
+Sample for publishing.
 
 ## How to install this sample repository
 
@@ -21,5 +21,5 @@ Write `import CarthageSample` at the top of swift file.
 
 ```swift
 let sample = Sample()
-sample.log() // "sample"
+sample.log() // sample
 ```
