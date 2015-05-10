@@ -10,6 +10,6 @@ import Foundation
 
 class Sample {
     func log() -> String {
-        "sample"
+        return "sample"
     }
 }
