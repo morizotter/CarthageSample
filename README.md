@@ -1,5 +1,6 @@
 # CarthageSample
-Sample for publishing.
+
+Sample for publishing with [Carthage](https://github.com/Carthage/Carthage).
 
 ### 0. Create Xcode project or workspace at the root directory
 
